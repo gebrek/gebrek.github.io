@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Tacit-Tales</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Tacit-Tales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 20 Oct 2019 17:33:00 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Another One Bites the Dust</title>
+      <link>/posts/and-another-one-gone/</link>
+      <pubDate>Sun, 20 Oct 2019 17:33:00 +0200</pubDate>
+      
+      <guid>/posts/and-another-one-gone/</guid>
+      <description>This is a more complete template. Am I finished now?</description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
+      <link>/posts/hello-org/</link>
+      <pubDate>Sun, 20 Oct 2019 16:55:00 +0200</pubDate>
+      
+      <guid>/posts/hello-org/</guid>
+      <description>another blog entry, but through org-capture with maybe a useful default for the date? might not work with ox-hugo though
+it worked!!!</description>
+    </item>
+    
+    <item>
       <title>This is a test</title>
-      <link>http://example.org/posts/test/</link>
+      <link>/posts/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/test/</guid>
-      <description>This is a blog post to be exported via ox-hugo to hugo to github pages I&amp;rsquo;m adding some more for great good (it isn&amp;rsquo;t rendering without drafts on?)</description>
+      <guid>/posts/test/</guid>
+      <description>This is a blog post to be exported via ox-hugo to hugo to github pages</description>
     </item>
     
   </channel>
