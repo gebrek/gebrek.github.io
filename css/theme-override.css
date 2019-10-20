@@ -1,11 +1,16 @@
+.article-meta {
+    background-color: #4876ff;
+}
+
 header {
-    /* background: #613DC1; */
-    background: #191970;
+    /* background: #613DC1; */ /* Default */
+    /* background: #191970; */ /* Midnight Blue */
+    background: #27408b; /* Royal Blue 4 */
 }
 
 header a {
     /* color: #b22222 */
-    color: #fff
+    color: #fff;
 }
 
 footer {
