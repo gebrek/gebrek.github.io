@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Categories | Taciturn Text</title>
+    <title>In the Beginning* | Taciturn Text</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -43,12 +43,70 @@
   <body>
     <br/>
 
-
-<h1>Categories</h1>
-
-<ul class="terms">
+<div class="article-meta">
+<h1><span class="title">In the Beginning*</span></h1>
+<h2 class="author">[Jacob A. Sonnenberg]</h2>
+<h2 class="date">2019/10/20</h2>
+<p class="terms">
   
-</ul>
+  
+  
+  
+  
+</p>
+</div>
+
+
+
+<main>
+<p>This is the first real post that I intend to publish on a blog that
+should have been, at least since yesteryear. Alas, a lack of
+motivation or discipline for seeing through the smaller things
+obscures The Way.</p>
+
+<p>Let it be, allow the things you see to lead. The words will weave the
+way if you don&rsquo;t forget to speak.</p>
+
+<p>Yet, you see. It&rsquo;s nothing new to you or me! Echoes of words and their
+meanings meandering through open ears, open minds. Perhaps provoking
+primordial understanding, that would be The Way, fetterless, free.</p>
+
+<p>I&rsquo;m not one to bear the burden of a over-heavy work-flow though, if it
+should take much work to spew my words into the void I likely
+won&rsquo;t. So the work-flow is vitally important! Moving past the flowery
+words of self-aggrandizement!</p>
+
+<p>With a combination of Emacs&rsquo; <code>org-capture</code>, plus the <code>ox-hugo</code> and
+<code>easy-hugo</code> interfaces for the lovely static site generator <code>hugo</code> and
+a stray <code>deploy.sh</code> script I&rsquo;ve got the publishing work-flow down to</p>
+
+<pre><code class="language-text">C-c c b
+C-c C-e H H
+C-c b
+G
+</code></pre>
+
+<p>Where <code>C-c c b</code> is my capture template for a blog post, captured to
+~/org/blog.org.</p>
+
+<p><code>C-c C-e H H</code> exports the sub-tree as markdown to the hugo directory.</p>
+
+<p><code>C-c b</code> calls <code>easy-hugo</code> for a comprehensive Emacs interface.</p>
+
+<p>And from there <code>G</code> runs <code>deploy.sh</code> and publishes the new post to
+github pages.</p>
+
+<dl>
+<dt>And so the spell is cast! With a common invocation of ten keystrokes.* This is a test</dt>
+</dl>
+
+<p>:EXPORT_FILE_NAME: test</p>
+
+<p>This is a blog post to be exported via ox-hugo to hugo to github pages
+I should edit all the blogs from here, because I just overwrote
+something</p>
+
+</main>
 
     <footer>
       
