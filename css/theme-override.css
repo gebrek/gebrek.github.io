@@ -1,0 +1,13 @@
+header {
+    /* background: #613DC1; */
+    background: #191970;
+}
+
+header a {
+    /* color: #b22222 */
+    color: #fff
+}
+
+footer {
+    font-size: 90%; font-family: monospace;
+}
