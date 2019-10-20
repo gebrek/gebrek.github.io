@@ -59,22 +59,16 @@
 
 
 <main>
-<p>This is the first real post that I intend to publish on a blog that
-should have been, at least since yesteryear. Alas, a lack of
-motivation or discipline for seeing through the smaller things
-obscures The Way.</p>
+<p>*Well not really the beginning</p>
 
-<p>Let it be, allow the things you see to lead. The words will weave the
-way if you don&rsquo;t forget to speak.</p>
+<p>This is a post overdue, to a blog I should have started a while ago,
+if not to achieve anything other than a &ldquo;I could so I did&rdquo;
+thing. After multiple failed attempts using blogger, wordpress, et
+al. I stopped because I didn&rsquo;t really like the workflow.&nbsp;<sup class="footnote-ref" id="fnref:fn-1"><a href="#fn:fn-1">1</a></sup></p>
 
-<p>Yet, you see. It&rsquo;s nothing new to you or me! Echoes of words and their
-meanings meandering through open ears, open minds. Perhaps provoking
-primordial understanding, that would be The Way, fetterless, free.</p>
-
-<p>I&rsquo;m not one to bear the burden of a over-heavy work-flow though, if it
+<p>So I&rsquo;m not one to bear the burden of a over-heavy work-flow, if it
 should take much work to spew my words into the void I likely
-won&rsquo;t. So the work-flow is vitally important! Moving past the flowery
-words of self-aggrandizement!</p>
+won&rsquo;t. So the work-flow is vitally important!</p>
 
 <p>With a combination of Emacs&rsquo; <code>org-capture</code>, plus the <code>ox-hugo</code> and
 <code>easy-hugo</code> interfaces for the lovely static site generator <code>hugo</code> and
@@ -87,17 +81,48 @@ G
 </code></pre>
 
 <p>Where <code>C-c c b</code> is my capture template for a blog post, captured to
-~/org/blog.org.</p>
+<code>~/org/blog.org</code>. This holds all my posts in a single org file defined
+by defined by my org-capture template<sup class="footnote-ref" id="fnref:fn-2"><a href="#fn:fn-2">2</a></sup>. I write everything here,
+or go back to the file to make edits. But <code>:prepend t and
+~:jump-to-captured t</code> make it easy<sup class="footnote-ref" id="fnref:fn-4"><a href="#fn:fn-4">3</a></sup> to find.</p>
 
-<p><code>C-c C-e H H</code> exports the sub-tree as markdown to the hugo directory.</p>
+<pre><code class="language-emacs-lisp">(&quot;b&quot; &quot;Blog post&quot; entry
+ (file &quot;~/Documents/org/blog.org&quot;)
+ &quot;* %^{Title}
+:PROPERTIES:
+:EXPORT_FILE_NAME: %^{Export File Name}
+:EXPORT_DATE: %U
+:END:
+%?&quot; :prepend t :jump-to-captured t :empty-lines-after 1)
+</code></pre>
 
-<p><code>C-c b</code> calls <code>easy-hugo</code> for a comprehensive Emacs interface.</p>
+<p><code>C-c C-e H H</code> exports the sub-tree as markdown to the hugo directory
+thanks to <a href="https://ox-hugo.scripter.co">ox-hugo</a>.</p>
 
-<p>And from there <code>G</code> runs <code>deploy.sh</code> and publishes the new post to
-github pages.</p>
+<pre><code class="language-emacs-lisp">(use-package ox-hugo :after ox :ensure t)
+</code></pre>
 
-<p>And so the spell is cast! With a common invocation of ten (chorded)
+<p><code>C-c b</code> calls <code>easy-hugo</code> for a comprehensive Emacs interface. From
+here I can <code>G</code> to publish by running <code>deploy.sh</code> which uploads the
+newly generated site to github pages.</p>
+
+<p>And so the spell is cast! With a invocation of ten (chorded)
 keystrokes.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:fn-1">well with blogger it was alright, but the CLI tool stopped being supported
+ <a class="footnote-return" href="#fnref:fn-1">⏎</a></li>
+<li id="fn:fn-2">Idea: link this to the relevant section of my init.el so it updates if I change it.<sup class="footnote-ref" id="fnref:fn-3"><a href="#fn:fn-3">4</a></sup>
+ <a class="footnote-return" href="#fnref:fn-2">⏎</a></li>
+<li id="fn:fn-4">it&rsquo;s already pretty easy to find the file in org, but this just puts it up front
+ <a class="footnote-return" href="#fnref:fn-4">⏎</a></li>
+<li id="fn:fn-3">No, that&rsquo;s too much
+ <a class="footnote-return" href="#fnref:fn-3">⏎</a></li>
+</ol>
+</div>
 
 </main>
 
