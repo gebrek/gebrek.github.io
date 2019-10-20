@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/posts/test/</guid>
-      <description>This is a blog post to be exported via ox-hugo to hugo to github pages</description>
+      <description>This is a blog post to be exported via ox-hugo to hugo to github pages I&amp;rsquo;m adding some more for great good (it isn&amp;rsquo;t rendering without drafts on?)</description>
     </item>
     
   </channel>
