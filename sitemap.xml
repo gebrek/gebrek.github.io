@@ -8,14 +8,13 @@
   </url>
   
   <url>
-    <loc>/posts/hello-blog/</loc>
-    <lastmod>2019-10-20T17:39:00+02:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2019-10-20T23:21:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/posts/hello-blog/</loc>
     <lastmod>2019-10-20T17:39:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
