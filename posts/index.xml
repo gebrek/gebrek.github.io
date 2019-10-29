@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>category test</title>
+      <link>/posts/category-test/</link>
+      <pubDate>Fri, 25 Oct 2019 16:11:00 +0200</pubDate>
+      
+      <guid>/posts/category-test/</guid>
+      <description>this is a test, trying to find what the `category&amp;rsquo; field is and how it works</description>
+    </item>
+    
+    <item>
       <title>In the Beginning*</title>
       <link>/posts/hello-blog/</link>
       <pubDate>Sun, 20 Oct 2019 17:39:00 +0200</pubDate>
