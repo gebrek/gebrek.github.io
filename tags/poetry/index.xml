@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>index on jas/text</title>
-    <link>/posts/</link>
-    <description>Recent content in index on jas/text</description>
+    <title>poetry on jas/text</title>
+    <link>/tags/poetry/</link>
+    <description>Recent content in poetry on jas/text</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2019 23:21:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 11:20:00 +0100</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,21 +18,6 @@
       
       <guid>/posts/free-verse-1/</guid>
       <description>Forgive the little motions which make subtle ripples rise that coalesce and grow to waves, to tides, to fearsome walls of water It is nothing like that now just a simple sound praying and pleading as though the ocean hears Indifferent though, breaking against deaf ears taking off the solitude of years  </description>
-    </item>
-    
-    <item>
-      <title>In the Beginning*</title>
-      <link>/posts/hello-blog/</link>
-      <pubDate>Sun, 20 Oct 2019 17:39:00 +0200</pubDate>
-      
-      <guid>/posts/hello-blog/</guid>
-      <description>*Well not really the beginning
-This is a post overdue, to a blog I should have started a while ago,
-if not to achieve anything other than a &amp;ldquo;I could so I did&amp;rdquo;
-thing. After multiple failed attempts using blogger, wordpress, et
-al. I stopped because I didn&amp;rsquo;t really like the workflow.&amp;nbsp;1
-So I&amp;rsquo;m not one to bear the burden of a over-heavy work-flow, if it
-should take much work to spew my words into the void I likely</description>
     </item>
     
     <item>

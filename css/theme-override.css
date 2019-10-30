@@ -1,5 +1,13 @@
 .article-meta {
-    background-color: #4876ff;
+    /* background-color: #4876ff; */
+    background-image: url('/img/mushroom.jpg');
+    background-size: 300px 300px;
+    color: black;
+}
+
+.org-center {
+    text-align: center;
+    display: block;
 }
 
 header {
