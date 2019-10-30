@@ -20,6 +20,11 @@
   </url>
   
   <url>
+    <loc>/posts/limerick1/</loc>
+    <lastmod>2019-10-30T10:14:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2019-10-20T23:21:00+02:00</lastmod>
   </url>
@@ -47,10 +52,6 @@
   
   <url>
     <loc>/old_index/</loc>
-  </url>
-  
-  <url>
-    <loc>/posts/limerick1/</loc>
   </url>
   
 </urlset>

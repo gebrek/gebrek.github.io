@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Limerick 1</title>
+      <link>/posts/limerick1/</link>
+      <pubDate>Wed, 30 Oct 2019 10:14:00 +0100</pubDate>
+      
+      <guid>/posts/limerick1/</guid>
+      <description>It was lovely as love could be Only alone, you with me &#39;Til one day I saw Into life&#39;s gaping maw And ran away across the sea  </description>
+    </item>
+    
+    <item>
       <title>In the Beginning*</title>
       <link>/posts/hello-blog/</link>
       <pubDate>Sun, 20 Oct 2019 17:39:00 +0200</pubDate>
@@ -42,15 +51,6 @@ should take much work to spew my words into the void I likely</description>
       
       <guid>/old_index/</guid>
       <description>Hugo.io - Classic For text focused goodness About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home. The business took off, and its founders made a lot of money and received the credit they deserved for being daring visionaries. But around the same time, Bill Gates and Paul Allen came up with an idea even stranger and more fantastical: selling computer operating systems.</description>
-    </item>
-    
-    <item>
-      <title>Limerick 1</title>
-      <link>/posts/limerick1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/limerick1/</guid>
-      <description>It was lovely as love could be Only alone, you with me &#39;Til one day I saw Into life&#39;s gaping maw And ran away across the sea  </description>
     </item>
     
   </channel>
