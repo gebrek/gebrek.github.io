@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on jas/text</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Tags on jas/text</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Oct 2019 10:14:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2019 11:03:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>poetry</title>
       <link>/tags/poetry/</link>
-      <pubDate>Wed, 30 Oct 2019 10:14:00 +0100</pubDate>
+      <pubDate>Thu, 28 Nov 2019 11:03:00 +0100</pubDate>
       
       <guid>/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wip</title>
+      <link>/tags/wip/</link>
+      <pubDate>Thu, 28 Nov 2019 11:03:00 +0100</pubDate>
+      
+      <guid>/tags/wip/</guid>
       <description></description>
     </item>
     

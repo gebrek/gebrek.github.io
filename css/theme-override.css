@@ -1,3 +1,23 @@
+.title {
+    display:inline;
+    background-color:white;
+    color:black;
+    /* opacity:50%; */
+}
+
+.author {
+    display:inline;
+    background-color:white;
+    color:black;
+    /* opacity:50% */
+}
+
+/* .date { */
+/*     display:inline; */
+/*     background-color:white; */
+/*     color:black; */
+/* } */
+
 .article-meta {
     /* background-color: #4876ff; */
     background-image: url('/img/mushroom.jpg');
