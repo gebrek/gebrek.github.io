@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lit Study | jas/text</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css" integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body);
+        });
+    </script>
+
+<header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">/home/jas/text</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Lit Study</span></h1>
+<h2 class="author">[jas]</h2>
+<h2 class="date">2020/01/15</h2>
+<p class="terms">
+  
+  
+  
+  
+  Tags: <a href="/tags/study">study</a> <a href="/tags/article">article</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+<p>I am meant to be writing some report on the literature in the field of<br />
+computer science, with specialization in programming language<br />
+theory. There are many things that I could potentially write on, but<br />
+the particularities of the subject are yet unclear (I should have<br />
+buckled-down on this two weeks ago, but it&rsquo;s fiiine)</p>
+
+<p>My supervisor presented me with a couple conferences (ICFP, PLDI)<br />
+wherein I should find some inspiration for papers to read and report<br />
+on. From sampling the different papers I found a few that sounded<br />
+interesting. My personal interest is in the facilities of<br />
+metaprogramming, how they can be used to construct new<br />
+(domain-specific) languages, and how these new languages are effective<br />
+in their goals.</p>
+
+<p>A language is an open problem. Or maybe an open solution would be more<br />
+accurate. Languages in the context of programming will contain syntax<br />
+and semantics that are suited for their domain. C does well in<br />
+representing the machine at a level of abstraction just high enough to<br />
+be useful to write in; assembly also represents the machine but more<br />
+faithfully and thereby more laboriously (we make machines to do the<br />
+work for us, we made C to write assembly for us).</p>
+
+<p>There are three fundamental parts to all programming languages.</p>
+
+<ol>
+<li>Primitives<br /></li>
+<li>Combining Primitives<br /></li>
+<li>Abstracting Combinations of Primitives<br />
+<br /></li>
+</ol>
+
+<p>Programming languages must have primitives because they have to start<br />
+somewhere, natural languages have the questionable benefit of stewing<br />
+for thousands of years in human tongue imparting a long-storied<br />
+history every word and phrase in a multitude of ways. Wherein the<br />
+meaning of words have a layered history of etymological evolution.</p>
+
+<p>Having a method for combining the primitives is crucial as well. This<br />
+just means that you can do <strong>something</strong> with them. For example, if you<br />
+take the integers as primitives, addition is one means of combination.</p>
+
+<p>Then, you have the abstraction of the combination of primitives. This<br />
+is the trickiest part to understand, though the base concept is<br />
+simple, the consequences are expounding. That is, given integers and<br />
+addition define multiplication in terms of addition and you&rsquo;ve got<br />
+yourself a new procedure in your little language!</p>
+
+<p>(Note that in mathematics this would be a semigroup if you have a set<br />
+and an associative binary operator closed over the set! (then if you<br />
+add the identity element it is now a monoid!))</p>
+
+<p>More on this later&hellip;</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/gebrek">Github</a>
+      
+    </footer>
+  </body>
+</html>
+

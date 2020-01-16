@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>study on jas/text</title>
+    <link>/tags/study/</link>
+    <description>Recent content in study on jas/text</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2020 09:55:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lit Study</title>
+      <link>/posts/lit-study/</link>
+      <pubDate>Wed, 15 Jan 2020 09:55:00 +0100</pubDate>
+      
+      <guid>/posts/lit-study/</guid>
+      <description>I am meant to be writing some report on the literature in the field of
+computer science, with specialization in programming language
+theory. There are many things that I could potentially write on, but
+the particularities of the subject are yet unclear (I should have
+buckled-down on this two weeks ago, but it&amp;rsquo;s fiiine)
+My supervisor presented me with a couple conferences (ICFP, PLDI)
+wherein I should find some inspiration for papers to read and report</description>
+    </item>
+    
+  </channel>
+</rss>

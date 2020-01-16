@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/dreamless/</loc>
+    <lastmod>2020-01-15T14:15:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/poetry/</loc>
+    <lastmod>2020-01-15T14:15:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-15T14:15:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/article/</loc>
+    <lastmod>2020-01-15T09:55:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lit-study/</loc>
+    <lastmod>2020-01-15T09:55:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/study/</loc>
+    <lastmod>2020-01-15T09:55:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/limerick1/</loc>
+    <lastmod>2019-10-30T10:14:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2019-10-20T23:21:00+02:00</lastmod>
   </url>
@@ -19,11 +54,6 @@
   
   <url>
     <loc>/posts/hello-blog/</loc>
-    <lastmod>2019-10-20T17:39:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-10-20T17:39:00+02:00</lastmod>
   </url>
   
