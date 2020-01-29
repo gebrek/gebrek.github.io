@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/if-i-were-a-monk/</loc>
+    <lastmod>2020-01-29T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/emacs-articles/</loc>
+    <lastmod>2020-01-25T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/whip-quip/</loc>
     <lastmod>2020-01-22T11:13:00+01:00</lastmod>
   </url>
@@ -68,10 +78,6 @@
   
   <url>
     <loc>/old_index/</loc>
-  </url>
-  
-  <url>
-    <loc>/posts/if-i-were-a-monk/</loc>
   </url>
   
 </urlset>

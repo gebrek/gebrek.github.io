@@ -12,6 +12,30 @@
     
     
     <item>
+      <title>If I Were a Monk</title>
+      <link>/posts/if-i-were-a-monk/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/posts/if-i-were-a-monk/</guid>
+      <description>I would use free software
+I would eat only lentils and beans
+I would do yoga and meditate daily
+I would not mind the cycles spinning endlessly around me
+There would be air and water</description>
+    </item>
+    
+    <item>
+      <title>Emacs Articles</title>
+      <link>/posts/emacs-articles/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/posts/emacs-articles/</guid>
+      <description> http://atomized.org/blog/2018/09/19/what-even-is-org-mode/
+ &amp;ldquo;Like Emacs for Emacs&amp;rdquo; &amp;ndash; I have this written in a post-draft!
+   </description>
+    </item>
+    
+    <item>
       <title>Whip Quip</title>
       <link>/posts/whip-quip/</link>
       <pubDate>Wed, 22 Jan 2020 11:13:00 +0100</pubDate>
@@ -93,19 +117,6 @@ should take much work to spew my words into the void I likely</description>
       
       <guid>/old_index/</guid>
       <description>Hugo.io - Classic For text focused goodness About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home. The business took off, and its founders made a lot of money and received the credit they deserved for being daring visionaries. But around the same time, Bill Gates and Paul Allen came up with an idea even stranger and more fantastical: selling computer operating systems.</description>
-    </item>
-    
-    <item>
-      <title>If I Were A Monk</title>
-      <link>/posts/if-i-were-a-monk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/if-i-were-a-monk/</guid>
-      <description>I would use free software
-I would eat only lentils and beans
-I would do yoga and meditate daily
-I would not mind the cycles spinning endlessly around me
-There would be air and water</description>
     </item>
     
   </channel>
